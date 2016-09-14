@@ -1,0 +1,33 @@
+[12-Sep-2016 19:35:42 UTC] exception 'Google_Auth_Exception' with message 'Could not json decode the token' in D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\vendor\google\apiclient\src\Google\Auth\OAuth2.php:185
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\vendor\google\apiclient\src\Google\Client.php(218): Google_Auth_OAuth2->setAccessToken('')
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Job.php(349): Google_Client->setAccessToken('')
+#2 [internal function]: MyWPBackup\Job->upload_googledrive(Array, Array)
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Job.php(252): call_user_func(Array, Array, Array)
+#4 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Admin\Job.php(455): MyWPBackup\Job->upload()
+#5 [internal function]: MyWPBackup\Admin\Job->cron_run(Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(600): call_user_func_array(Array, Array)
+#7 D:\Xampp\htdocs\wordpress\wp-cron.php(117): do_action_ref_array('wp_backup_run_j...', Array)
+#8 {main}
+[12-Sep-2016 19:35:42 UTC] exception 'Google_Auth_Exception' with message 'Could not json decode the token' in D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\vendor\google\apiclient\src\Google\Auth\OAuth2.php:185
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\vendor\google\apiclient\src\Google\Client.php(218): Google_Auth_OAuth2->setAccessToken('')
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Job.php(349): Google_Client->setAccessToken('')
+#2 [internal function]: MyWPBackup\Job->upload_googledrive(Array, Array)
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Job.php(252): call_user_func(Array, Array, Array)
+#4 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Admin\Job.php(455): MyWPBackup\Job->upload()
+#5 [internal function]: MyWPBackup\Admin\Job->cron_run(Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(600): call_user_func_array(Array, Array)
+#7 D:\Xampp\htdocs\wordpress\wp-cron.php(117): do_action_ref_array('wp_backup_run_j...', Array)
+#8 {main}
+[12-Sep-2016 19:35:42 UTC] exception 'Google_Auth_Exception' with message 'Could not json decode the token' in D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\vendor\google\apiclient\src\Google\Auth\OAuth2.php:185
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\vendor\google\apiclient\src\Google\Client.php(218): Google_Auth_OAuth2->setAccessToken('')
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Job.php(349): Google_Client->setAccessToken('')
+#2 [internal function]: MyWPBackup\Job->upload_googledrive(Array, Array)
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Job.php(252): call_user_func(Array, Array, Array)
+#4 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Admin\Job.php(455): MyWPBackup\Job->upload()
+#5 [internal function]: MyWPBackup\Admin\Job->cron_run(Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(600): call_user_func_array(Array, Array)
+#7 D:\Xampp\htdocs\wordpress\wp-cron.php(117): do_action_ref_array('wp_backup_run_j...', Array)
+#8 {main}

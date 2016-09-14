@@ -1,0 +1,7 @@
+{"text":"Performing full backup","level":"info"}
+{"text":"Exporting database","level":"info"}
+{"text":"Dumping database to temporary file C:\\Windows\\Temp\\my-FA1.tmp","level":"debug"}
+{"text":"No tables excluded, exporting all","level":"info"}
+{"text":"Using mysqldump.","level":"debug"}
+{"text":"Couldn't export database: 'mysqldump' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","level":"error"}
+{"text":"Finished running job in 0.2 seconds.","level":"info"}

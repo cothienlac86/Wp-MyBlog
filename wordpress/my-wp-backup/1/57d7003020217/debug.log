@@ -1,0 +1,10 @@
+[12-Sep-2016 19:21:21 UTC] exception 'Exception' with message 'Couldn't export database: 'mysqldump' is not recognized as an internal or external command,
+operable program or batch file.
+' in D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Database\Dumper\Shell.php:35
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Database\ExportFile.php(52): MyWPBackup\Database\Dumper\Shell->dump('C:\\Windows\\Temp...', 'wp_')
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\my-wp-backup\src\Admin\Job.php(443): MyWPBackup\Database\ExportFile->export()
+#2 [internal function]: MyWPBackup\Admin\Job->cron_run(Array)
+#3 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(600): call_user_func_array(Array, Array)
+#4 D:\Xampp\htdocs\wordpress\wp-cron.php(117): do_action_ref_array('wp_backup_run_j...', Array)
+#5 {main}
